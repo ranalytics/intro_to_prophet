@@ -4,7 +4,7 @@ require(prophet)
 require(ggplot2)
 
 
-# Загружаем исходных данных:
+# Загружаем исходные данные:
 dat <- read_csv(file = "data/bitcoin_closing_price.csv")
 
 # Удаляем наблюдения, которые старше 2016-01-01, и логарифмируем отклик
