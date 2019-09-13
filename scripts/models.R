@@ -178,7 +178,7 @@ plot_forecast_component(M5, forecast_M5,
                         name = "Bitcoin_Cash_SV_and_Bitcoing_Cash_ABC_fork")
 
 # Эффекты всех событий на отдельном графике:
-plot_forecast_component(M6, forecast_M6, name = "holidays")
+plot_forecast_component(M5, forecast_M5, name = "holidays")
 
 
 # -------------------- Моделирование "предыстории" события ---------------------
@@ -260,4 +260,4 @@ gridExtra::grid.arrange(m7_holidays, m9_holidays, nrow = 1)
 
 # -------------------- Сохранение модельных объектов ---------------------------
 
-save(M0, M1, M2, M3, M4, file = "models/models.RData")
+save(list = paste0("M", 0:9), file = "models/models.RData")
