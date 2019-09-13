@@ -4,7 +4,7 @@
 
 1. [Введение](https://r-analytics.blogspot.com/2019/08/prophet.html)
 2. [Параметры моделей](https://r-analytics.blogspot.com/2019/09/prophet.html)
-3. [Эффекты праздников] (https://r-analytics.blogspot.com/2019/09/prophet_13.html)
+3. [Эффекты праздников](https://r-analytics.blogspot.com/2019/09/prophet_13.html)
 
 
 ## Структура проекта
