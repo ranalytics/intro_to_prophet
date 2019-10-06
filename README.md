@@ -6,7 +6,7 @@
 2. [Параметры моделей](https://r-analytics.blogspot.com/2019/09/prophet.html)
 3. [Эффекты праздников](https://r-analytics.blogspot.com/2019/09/prophet_13.html)
 4. [Сезонные компоненты](https://r-analytics.blogspot.com/2019/09/prophet-seasonality.html)
-5. [ДОполнительные предикторы](https://r-analytics.blogspot.com/2019/10/prophet-predictors.html)
+5. [Дополнительные предикторы](https://r-analytics.blogspot.com/2019/10/prophet-predictors.html)
 
 
 ## Структура проекта
