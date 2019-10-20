@@ -7,7 +7,8 @@
 3. [Эффекты праздников](https://r-analytics.blogspot.com/2019/09/prophet_13.html)
 4. [Сезонные компоненты](https://r-analytics.blogspot.com/2019/09/prophet-seasonality.html)
 5. [Дополнительные предикторы](https://r-analytics.blogspot.com/2019/10/prophet-predictors.html)
-6. [Перекрестная проверка](https://r-analytics.blogspot.com/2019/10/prophet-shf.html )
+6. [Перекрестная проверка](https://r-analytics.blogspot.com/2019/10/prophet-shf.html)
+7. [Моделирование емкости системы](https://r-analytics.blogspot.com/2019/10/prophet-capacity.html)
 
 ## Структура проекта
 
@@ -20,7 +21,8 @@
 * `3_holidays.R`: код для третьего сообщения ("Эффекты праздников");
 * `4_seasonality.R`: код для четвертого сообщения ("Сезонные компоненты");
 * `5_additional_predictors.R`: код для пятого сообщения ("Дополнительные предикторы");
-* `6_cross_validation.R`: код для шестого сообщения ("Перекрестная проверка").
+* `6_cross_validation.R`: код для шестого сообщения ("Выбор оптимальной модели").
+* `7_saturated_growth.R`: кодя для заключительного, седьмого сообщения ("Моделирование емкости системы").
 
 В директории `data` хранится CSV-файл с используемыми во всех примерах данными 
 по стоимости биткоина.

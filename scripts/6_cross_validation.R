@@ -7,7 +7,7 @@ require(gridExtra)
 # ---------------- Перекрестная проверка по методу SHF -------------------------
 
 # Загружаем ранее подогнанные и сохраненные модели:
-load("./models/models.RData")
+load("./workspaces/intro_to_prophet.RData")
 
 # Пример использования функции cross_validation():
 M3_cv <- cross_validation(M3, 
