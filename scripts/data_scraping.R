@@ -12,12 +12,12 @@ period <- "?start=20130428&end=20190825"
 page <- paste0(base_url, currency, period)
 
 dat <- read_html(page) %>% 
-    html_node("table") %>% 
     html_table() %>% 
-    rename(y = "Close**",
-           ds = "Date") %>% 
+    .[[3]] %>% 
+    rename(y = "Close**", ds = Date) %>% 
     select(y, ds) %>% 
-    mutate(ds = mdy(ds))
+    mutate(ds = mdy(ds)) %>% 
+    mutate(y = gsub(",", "", y) %>% as.numeric(.))
 
 
 # Первое знакомство с данными:
